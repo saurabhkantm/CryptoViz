@@ -16,7 +16,7 @@ CryptoViz is a fully static Next.js 15 cybersecurity visualizer and cryptography
 
 ## 🔗 Live Demo
 
-Visit the production site at [https://cryptoviz.app](https://cryptoviz.app). Explore the interactive visualizer ciphers, read built-in cybersecurity documentation, and browse our curated learning resources list.
+Visit the production site at [crypto-viz-liart.vercel.app](crypto-viz-liart.vercel.app). Explore the interactive visualizer ciphers, read built-in cybersecurity documentation, and browse our curated learning resources list.
 
 ---
 
