@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { notFound } from 'next/navigation'
+=======
+import { redirect } from 'next/navigation'
+>>>>>>> 218bc9215c78e1c1197786b99e8c492eefa22e39
 import Navbar from '../../../components/layout/Navbar'
 import Sidebar from '../../../components/layout/Sidebar'
 import CipherLayout from '../../../components/cipher/CipherLayout'
@@ -21,7 +25,11 @@ export default async function VisualizerPage({
   const cipher = CIPHER_REGISTRY.find((c) => c.id === resolvedParams.cipher)
 
   if (!cipher) {
+<<<<<<< HEAD
     notFound()
+=======
+    redirect('/visualizer/caesar/')
+>>>>>>> 218bc9215c78e1c1197786b99e8c492eefa22e39
   }
 
   // Prep sidebar lists
@@ -42,4 +50,8 @@ export default async function VisualizerPage({
       </div>
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 218bc9215c78e1c1197786b99e8c492eefa22e39
